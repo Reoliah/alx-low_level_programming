@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  *  * main - to be called
- *   * return:0 for the int
+ *   * Return: Always 0 (Success)
  */
 
 int main(void)
