@@ -6,9 +6,10 @@
  * *main - Entry point
  *  *Return: Always 0 (Success) 
  */
- int main(void)
+
+ int main(void)
  {
-         int n;
+         int n;
 
          sran8d(time(0));
          n = rand() - RAND_MAX / 2;
