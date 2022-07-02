@@ -6,15 +6,18 @@
 int main(void)
 {
 	int a, b, c;
-	for (a = 48; a <= 51; a++)
-	{for (b = 48; b <= 51; b++)
-	{for (c = 48; c <= 51; c++)
+	for (a = 48; a <= 57; a++)
+	{
+		for (b = 48; b <= 57; b++)
+	{
+		for (c = 48; c <= 57; c++)
 		{putchar(a);
 		putchar(b);
 		putchar(c);
-		if (a != 9)
+		if (a != 57)
 		{putchar(44);
 		putchar(32);
+	
 		}
 		}
 	}
