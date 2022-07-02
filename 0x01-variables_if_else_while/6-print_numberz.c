@@ -7,14 +7,10 @@
  */
 int main(void)
 {
-	char ch;
-
-	for (ch = 'a'; ch <= 'z'; ch++)
-	{
-		if (ch != 'q' && ch != 'e')
-		{putchar(ch); }
-}
-putchar(10); /* this is an ascii code for new line*/
-
-return (0);
+	int ch;
+	for (ch = 48; ch <= 57; ch++)
+	{putchar(ch); }
+	putchar(10); /* this is an ascii code for new line*/
+	
+	return (0);
 }
