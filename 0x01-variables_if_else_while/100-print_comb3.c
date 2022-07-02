@@ -13,10 +13,6 @@ int main(void)
 		for (nm = 48; nm <= 57; nm++)
 	{putchar(ch);
 	putchar(nm);
-	while (ch = 57 || nm = 57)
-	{continue; ch++; nm++; }
-       	while (ch = 57 && nm = 57)
-	{break; ch++; nm++; }
 	if (ch != 57)
 	{putchar(44);
 	putchar(32); }
