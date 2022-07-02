@@ -9,12 +9,13 @@ int main(void)
 	int nm;
 
 	for (ch = 48; ch <= 57; ch++)
-	{for(nm = 48; nm <=57; nm++)
+	{
+		for (nm = 48; nm <= 57; nm++)
 	{putchar(ch);
 	putchar(nm);
-	if (ch != 57 && nm != 57)
+       if (ch != 57)
 	{putchar(44);
-	putchar(32); } 
+	putchar(32); }
 	}
 }
 putchar(10);
