@@ -4,9 +4,10 @@
  * Return: Always 0 (Success)
  */
 int main(void)
+{
 	int ch;
 	int nm;
-{
+
 	for (ch = 48; ch <= 57; ch++)
 	{for(nm = 48; nm <=57; nm++)
 	{putchar(ch);
