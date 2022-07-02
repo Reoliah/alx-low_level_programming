@@ -4,18 +4,19 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-	int ch, nm;
+	int ch;
+	int nm;
 {
-	for (ch = 1; ch <= 9; ch++)
-	{for(nm = 1; nm <=9; nm++)
+	for (ch = 48; ch <= 57; ch++)
+	{for(nm = 48; nm <=57; nm++)
 	{putchar(ch);
 	putchar(nm);
-	if (ch != 9 && nm != 9)
-	{putchar(",");
-	putchar(" "); } 
+	if (ch != 57 && nm != 57)
+	{putchar(44);
+	putchar(32); } 
 	}
 }
-putchar("\n");
+putchar(10);
 
 return (0);
 }
