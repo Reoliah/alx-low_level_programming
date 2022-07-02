@@ -14,9 +14,9 @@ int main(void)
 	{putchar(ch);
 	putchar(nm);
 	while (ch = 57 || nm = 57)
-	{continue ch++; nm++; }
+	{continue; ch++; nm++; }
        	while (ch = 57 && nm = 57)
-	{break ch++; nm++; }
+	{break; ch++; nm++; }
 	if (ch != 57)
 	{putchar(44);
 	putchar(32); }
