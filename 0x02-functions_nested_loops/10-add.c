@@ -5,10 +5,7 @@
  * @y: number to be added
  * Return: Always 0
  */
-int add(int, int)
+int add(int x, int y)
 {
-	int x;
-	int y;
-
 	return (x + y);
 }
