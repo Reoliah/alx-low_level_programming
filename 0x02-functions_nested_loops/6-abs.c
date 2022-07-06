@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * _abs - compute the absolute value of an integer
+ *@n: number being tested
  * Return: Always 0
  */
 int _abs(int)

@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * print_to_98 - print all natural numbers from n
+ * @n: starting point
  * Return: returns nothing
  */
 void print_to_98(int n)
