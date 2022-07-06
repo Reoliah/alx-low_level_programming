@@ -1,8 +1,8 @@
 #include "main.h"
+
 /**
- * print_times_tables - print times tables of numbers greater than 0 but les than 15
- * @n: number to be tested
- * Return: Always 0
+ * print_times_table - prints the n times table, starting with 0
+ * @n: number of the times table
  */
 void print_times_table(int n)
 {
