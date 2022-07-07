@@ -8,14 +8,14 @@ void positive_or_negative(int i)
 {
 	if (i == 0)
 	{
-		printf("%d is zero\n", i)
+		printf("%d is zero\n", i);
 	}
 	else if (i > 0)
 	{
-		print("%d is positive\n", i)
+		print("%d is positive\n", i);
 	}
 	else
 	{
-		print("%d is negative\n", i)
+		print("%d is negative\n", i);
 	}
 }
