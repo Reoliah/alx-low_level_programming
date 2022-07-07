@@ -3,7 +3,8 @@
 
 #include <stdio.h>
 
-int _putchar(char)
+int _putchar(char c)
+int print_number(int n)
 int _isupper(int c);
 int _isdigit(int c);
 int mul(int a, int b);
