@@ -2,12 +2,12 @@
 
 /**
 * main - causes an infinite loop
-* Return: 0
+* Return: Always 0 (Success)
 */
 
 int main(void)
 {
-       /*  int i; */
+       int i;
 
         printf("Infinite loop incoming :(\n");
 /**       
