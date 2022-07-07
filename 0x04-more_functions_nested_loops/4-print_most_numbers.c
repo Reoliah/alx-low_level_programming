@@ -6,14 +6,15 @@
  */
 void print_most_numbers(void)
 {
-	int num; 
+	char i = '0';
 
-	for (num = 0; num <= 9; ++num)
+	while (i <= '9')
 	{
-		if ( num != 2 && num != 4)
+		if ((i != 2) && (i != 4))
 		{
-			_putchar(num);
+			_putchar(i);
 		}
+		i++;
 	}
 	_putchar('\n');
 }
