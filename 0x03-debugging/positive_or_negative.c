@@ -12,10 +12,10 @@ void positive_or_negative(int i)
 	}
 	else if (i > 0)
 	{
-		print("%d is positive\n", i);
+		printf("%d is positive\n", i);
 	}
 	else
 	{
-		print("%d is negative\n", i);
+		printf("%d is negative\n", i);
 	}
 }
