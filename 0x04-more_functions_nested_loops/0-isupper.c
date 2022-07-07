@@ -2,7 +2,7 @@
 
 /**
  * _isupper - check if c  is upper case or lower
- * @c: number being tested
+ * @c: input for alphabet
  * Return: Always 0
  */
 int _isupper(int c)
@@ -15,3 +15,4 @@ int _isupper(int c)
 	{
 		return (0);
 	}
+}	
