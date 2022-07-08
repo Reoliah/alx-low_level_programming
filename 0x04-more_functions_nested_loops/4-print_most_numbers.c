@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_most_numbers - print all digits up to 9 except 2 and 4
- * Return: Always 0
+ * print_most_numbers - print numbers
+ * Return: nothing
  */
 
 void print_most_numbers(void)
@@ -13,8 +13,10 @@ void print_most_numbers(void)
 	while (i < 10)
 	{
 		if (i != 2 && i != 4)
-			_putchar(i + '0');
+			_putchar(i);
 		i++;
 	}
 	_putchar('\n');
+
+	return (0);
 }
