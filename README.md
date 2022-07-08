@@ -1,1 +1,1 @@
-Starting out with C
+Functions creation and using nested loops
