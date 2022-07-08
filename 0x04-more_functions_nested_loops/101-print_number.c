@@ -1,13 +1,13 @@
 #include "main.h"
 #include <stdio.h>
-#include <stdlib.h> 
-  
- /** 
- *print_number - prints numbers 
- *@n: number to be printed 
- *Return: void 
- */ 
- 
+#include <stdlib.h>
+
+ /**
+ *print_number - prints numbers
+ *@n: number to be printed
+ *Return: void
+ */
+
 void print_number(int n)
 {
 	unsigned int n1 = 0;
