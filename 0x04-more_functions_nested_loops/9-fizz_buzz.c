@@ -2,8 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - print numbers up to 100
- * Description: for multiples of 3 print Fizz, for multiples of 5 print Buzz and for multiples of both 3 and 5 print FizzBuzz.
+ * main - FizzBuzz test
  * Return: Always 0 (Success)
  */
 
@@ -28,4 +27,6 @@ int main(void)
 			printf("%d ", i);
 	}
 	printf("\n");
+
+	return (0);
 }
