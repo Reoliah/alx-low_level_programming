@@ -2,10 +2,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
- /**
- *print_number - prints numbers
- *@n: number to be printed
- *Return: void
+/**
+ * print_number - print numbers
+ * @n: numbers to be printed
+ * Return: void
  */
 
 void print_number(int n)
