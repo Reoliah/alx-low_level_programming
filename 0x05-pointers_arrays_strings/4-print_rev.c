@@ -2,7 +2,7 @@
 
 /**
  * print_rev - print reverse of the string followed by a new line
- * @*s: pointer of the string to be printed
+ * @s: pointer of the string to be printed
  * Return: void
  */
 
@@ -12,7 +12,7 @@ void print_rev(char *s)
 
 	while (s[i])
 	{
-		i++
+		i++;
 	}
 	while (i--)
 	{

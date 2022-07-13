@@ -3,7 +3,7 @@
 
 /**
  * print_array - print n elements of an array of integers
- * @*a: input array
+ * @a: input array
  * @n : input n elements of integers
  * Return: void
  */
@@ -18,5 +18,5 @@ void print_array(int *a, int n)
 		if (i != (n - 1))
 			printf(", ");
 	}
-	print("\n");
+	printf("\n");
 }

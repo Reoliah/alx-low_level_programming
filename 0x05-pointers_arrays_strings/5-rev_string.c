@@ -2,7 +2,7 @@
 
 /**
  * rev_string - reverse a string
- * @*s: pointer to the string to be tested
+ * @s: pointer to the string to be tested
  * Return: void
  */
 
