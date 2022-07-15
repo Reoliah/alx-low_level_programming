@@ -6,7 +6,7 @@
  * Return: the pointer to dest
  */
 
-char *leet(char *s)
+char *leet(char *n)
 {
 	int i, x;
 	int find[] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
