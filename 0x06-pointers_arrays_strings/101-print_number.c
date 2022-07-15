@@ -47,4 +47,4 @@ void print_number(int n)
 			power = 0;
 		}
 	}
-}						
+}
