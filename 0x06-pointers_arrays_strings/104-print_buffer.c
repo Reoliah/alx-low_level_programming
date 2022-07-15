@@ -5,39 +5,45 @@
  * print_buffer - print buffer 10 bytes at a time
  * @b: buffer to be printed
  * @size: size to be printed
+ * Return: no return
  */
 
 void print_buffer(char *b, int size)
 {
-	int j, k, l;
+	int o, j, i;
+
+	o = 0;
 
 	if (size <= 0)
-		printf("\n");
-	else
 	{
-		for (j = 0; j < size; j += 10)
-		{
-			printf("%.8x :", j);
-			for (k = j; k < j + 10; k++)
+		printf("\n");
+		return;
+	}
+	while (o < size)
+	{
+		j = size - o < 10 ? size - o : 10;
+		printf("%08x: ", o);
+			for (i = 0; i < 10; i++)
 			{
-				if (k % 2 == 0)
-					printf(" ");
-				if (k < size)
-					printf("%.2x", *(b + k));
+				if (i < j)
+					printf("%02x", *(b + o + i));
 				else
 					print(" ");
+				if (i % 2)
+				{
+					printf(" ");
+				}
 			}
-			printf(" ");
-			for (l = j; l < j + 10; l++)
+			for (i = o; i < j; i++)
 			{
-				if (l >= size)
-					break;
-				if (*(b + l) < 32 || *(b + l) > 126)
-					printf("%c", '.');
-				else
-					printf("%c", *(b + l));
+				int c = *(b + o + i);
+				if (c < 32 || c > 132)
+				{
+					c = '.';
+				}
+				printf("%c", c);
 			}
 			printf("\n");
-		}
+			o += 10;
 	}
-}
+}	
