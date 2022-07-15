@@ -18,7 +18,7 @@ void print_number(int n)
 
 	if (n < 0)
 	{
-		_putchar('_');
+		_putchar('-');
 		neg = 1;
 	}
 
@@ -47,5 +47,4 @@ void print_number(int n)
 			power = 0;
 		}
 	}
-}
-						
+}						

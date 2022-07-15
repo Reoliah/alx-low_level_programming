@@ -2,7 +2,7 @@
 
 /**
  * leet - encode a string into 1337
- * @s: input string
+ * @n: input string
  * Return: the pointer to dest
  */
 

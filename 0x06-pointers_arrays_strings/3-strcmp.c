@@ -2,8 +2,8 @@
 
 /**
  * _strcmp - compares two string
- * s1: first string
- * s2: second string
+ * @s1: first string
+ * @s2: second string
  * Return: 0 if s1 is equal to s2 and another number if not
  */
 
