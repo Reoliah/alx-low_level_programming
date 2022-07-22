@@ -1,4 +1,0 @@
-#!/bin/bash
-gcc -Wall -pedantic -Werror -Wextra -c /alx-low_level_programming/0x09-static_libraries/*.c
-ar -rc liball.a /alx-low_level_programming/0x09-static_libraries/*.o
-ranlib liball.a
